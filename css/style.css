@@ -1,0 +1,69 @@
+                * {
+                    margin: 0;
+                    padding: 0;
+                }
+                
+                body {
+                    padding: 25px;
+                }
+                
+                .main-container {
+                    max-width: 680px;
+                    border: solid;
+                    margin: 0 auto;
+                }
+                
+                header {
+                    padding: 17px;
+                }
+                
+                h1 {
+                    text-align: center;
+                }
+                
+                .music-container {
+                    display: flex;
+                    flex-wrap: wrap;
+                    padding: 17px;
+                }
+                
+                .music {
+                    width: 30%;
+                    height: 80px;
+                    padding: 7px;
+                    background: green;
+                    background-repeat: no-repeat;
+                    background-size: 100% 100%;
+                    box-shadow: 0px 1px 4px white;
+                    border-radius: 5px;
+                    margin: 10px 3px;
+                }
+                
+                .music:hover {
+                    opacity: 80%;
+                    cursor: pointer;
+                }
+                
+                .a {
+                    background-image: url('./../images/music-1.jpg');
+                }
+                
+                .b {
+                    background-image: url('./../images/music-2.jpg');
+                }
+                
+                .c {
+                    background-image: url('./../images/music-3.jpg');
+                }
+                
+                .d {
+                    background-image: url('./../images/music-4.jpg');
+                }
+                
+                .e {
+                    background-image: url('./../images/music-5.jpg');
+                }
+                
+                .f {
+                    background-image: url('./../images/music-6.jpg');
+                }
